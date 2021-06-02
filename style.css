@@ -1,13 +1,13 @@
-@font-face{
+@font-face {
   font-family: 'Poppins';
   src: url(fonts/Poppins-Regular.ttf);
   font-style: normal;
 }
 
-@font-face{
-    font-family: 'Playfair Display';
-    src: url(fonts/PlayfairDisplay-Regular.ttf);
-    font-style: normal;
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(fonts/PlayfairDisplay-Regular.ttf);
+  font-style: normal;
 }
 
 body {
