@@ -6,8 +6,6 @@ h2{
   font-family: Playfair Display;
   font-size: 50px;
   line-height: 100%;
-  font-size: 50px;
-  line-height: 100%;
 }
 h3 {
   font-family: Poppins;
@@ -19,7 +17,9 @@ h3 {
 }
 .content {
   display: flex;
-  flex-direction: column
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
 }
 
 
@@ -43,9 +43,20 @@ nav li {
   list-style: none;
 }
 
-.hero{
-    padding: 0 5vh 5vh 5vh;
-    margin: 0;
+.hero {
+  padding: 0 5vh 5vh 5vh;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+}
+
+.hero button {
+  width: 288px;
+  height: 50px;
+  background-color: #1A2236;
+  color: white;
+  align-self: center;
+  margin-top: 25px;
 }
 
 @media only screen and (max-width: 600px) {
