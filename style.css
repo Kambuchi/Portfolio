@@ -11,18 +11,17 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: Poppins sans-serif;
   color: #1a2236;
 }
 
 h2 {
-  font-family: Playfair Display;
+  font-family: Playfair Display sans-serif;
   font-size: 50px;
   line-height: 100%;
 }
 
 h3 {
-  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
