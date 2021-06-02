@@ -1,3 +1,15 @@
+@font-face{
+  font-family: 'Poppins';
+  src: url(fonts/Poppins-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face{
+    font-family: 'Playfair Display';
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+    font-style: normal;
+}
+
 body {
   font-family: Poppins;
   color: #1a2236;
@@ -63,20 +75,20 @@ nav li {
 }
 
 @media only screen and (max-width: 600px) {
-  header{
+  header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
 
   .nav-list {
-    display:none;
+    display: none;
   }
 
   .logo-nav {
     display: flex;
   }
-      
+
   .toggleNav {
     font-size: 55px;
     padding-right: 2vh;
