@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Code Review
-> Reviewing a previous project to be self-criticism
+# Porfolio Setup
+> Starting to build a portfolio to exhibit future projects
 
 ![screenshot](./app_screenshot.png)
 
