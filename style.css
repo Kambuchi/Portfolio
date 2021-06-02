@@ -1,3 +1,72 @@
 body {
-    font-family: Poppins;
+  font-family: Poppins;
+  color: #1A2236;
 }
+h2{
+  font-family: Playfair Display;
+  font-size: 50px;
+  line-height: 100%;
+  font-size: 50px;
+  line-height: 100%;
+}
+h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+}
+.content {
+  display: flex;
+  flex-direction: column
+}
+
+
+.logo-nav {
+  display: none;
+}
+
+.toggleNav {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+}
+
+.hero{
+    padding: 0 5vh 5vh 5vh;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+      display:flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .nav-list{
+      display:none;
+    }
+
+    .logo-nav {
+      display: flex;
+    }
+      
+    .toggleNav {
+      font-size: 55px;
+      padding-right: 2vh; 
+      display: flex;
+    }
+    
+  }
