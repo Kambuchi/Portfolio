@@ -1,12 +1,14 @@
 body {
   font-family: Poppins;
-  color: #1A2236;
+  color: #1a2236;
 }
-h2{
+
+h2 {
   font-family: Playfair Display;
   font-size: 50px;
   line-height: 100%;
 }
+
 h3 {
   font-family: Poppins;
   font-style: normal;
@@ -15,6 +17,7 @@ h3 {
   line-height: 21px;
   letter-spacing: -0.01em;
 }
+
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -60,24 +63,23 @@ nav li {
 }
 
 @media only screen and (max-width: 600px) {
-    header{
-      display:flex;
-      justify-content: space-between;
-      align-items: flex-start;
+  header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
     }
 
     .nav-list{
-      display:none;
+  display:none;
     }
 
     .logo-nav {
-      display: flex;
+  display: flex;
     }
       
     .toggleNav {
-      font-size: 55px;
-      padding-right: 2vh; 
-      display: flex;
-    }
-    
-  }
+  font-size: 55px;
+  padding-right: 2vh; 
+  display: flex;
+    }    
+}
