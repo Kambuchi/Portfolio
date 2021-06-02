@@ -25,7 +25,6 @@ h3 {
   height: 100vh;
 }
 
-
 .logo-nav {
   display: none;
 }
@@ -38,6 +37,7 @@ h3 {
   display: flex;
   justify-content: space-evenly;
 }
+
 nav a {
   text-decoration: none;
 }
@@ -49,14 +49,14 @@ nav li {
 .hero {
   padding: 0 5vh 5vh 5vh;
   margin: 0;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
 .hero button {
   width: 288px;
   height: 50px;
-  background-color: #1A2236;
+  background-color: #1a2236;
   color: white;
   align-self: center;
   margin-top: 25px;
@@ -64,22 +64,22 @@ nav li {
 
 @media only screen and (max-width: 600px) {
   header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    }
+  }
 
-    .nav-list{
-  display:none;
-    }
+  .nav-list {
+    display:none;
+  }
 
-    .logo-nav {
-  display: flex;
-    }
+  .logo-nav {
+    display: flex;
+  }
       
-    .toggleNav {
-  font-size: 55px;
-  padding-right: 2vh; 
-  display: flex;
-    }    
+  .toggleNav {
+    font-size: 55px;
+    padding-right: 2vh;
+    display: flex;
+  }
 }
