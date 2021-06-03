@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(fonts/Poppins-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(fonts/PlayfairDisplay-Regular.ttf);
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #1a2236;
+  height: 100vw;
+}
+
+h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vw;
+  width: 100%;
+}
+
+.logo-nav {
+  display: none;
+}
+
+.toggleNav {
+  display: none;
+}
+
+.nav-list {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a2236;
+}
+
+nav li {
+  list-style: none;
+}
+
+.hero {
+  padding: 0 5vw 5vw 5vw;
+  margin: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+}
+
+.hero button {
+  width: 288px;
+  height: 50px;
+  background-color: #1a2236;
+  color: white;
+  align-self: center;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .logo-nav {
+    display: flex;
+  }
+
+  .toggleNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    padding: 0 2vw;
+    display: flex;
+  }
+}
