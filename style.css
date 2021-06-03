@@ -11,6 +11,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   font-family: 'Poppins', sans-serif;
   color: #1a2236;
   height: 100vw;
@@ -96,7 +98,7 @@ nav li {
   .toggleNav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 55px;
-    padding: 5vw;
+    padding: 0 2vw;
     display: flex;
   }
 }
