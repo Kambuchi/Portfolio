@@ -11,29 +11,31 @@
 }
 
 body {
-  font-family: Poppins sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
   color: #1a2236;
+  height: 100vw;
 }
 
-h2 {
-  font-family: Playfair Display sans-serif;
+h1 {
+  font-family: 'Playfair Display', sans-serif;
   font-size: 50px;
   line-height: 100%;
 }
 
-h3 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: -0.01em;
+h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 50px;
+  line-height: 100%;
 }
 
 .content {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  height: 100vh;
+  align-items: center;
+  height: 100vw;
+  width: 100%;
 }
 
 .logo-nav {
@@ -45,12 +47,14 @@ h3 {
 }
 
 .nav-list {
+  width: 80vw;
   display: flex;
   justify-content: space-evenly;
 }
 
 nav a {
   text-decoration: none;
+  color: #1a2236;
 }
 
 nav li {
@@ -58,10 +62,18 @@ nav li {
 }
 
 .hero {
-  padding: 0 5vh 5vh 5vh;
-  margin: 0;
+  padding: 0 5vw 5vw 5vw;
+  margin: 5vh;
   display: flex;
   flex-direction: column;
+}
+
+.hero p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
 }
 
 .hero button {
@@ -73,8 +85,17 @@ nav li {
   margin-top: 25px;
 }
 
+.projects {
+  grid-area: 1fr 7fr 7fr 7fr 7fr / 100%
+}
+
+.projects span {
+  background-color: #98dede;
+}
+
 @media only screen and (max-width: 600px) {
   header {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -89,8 +110,9 @@ nav li {
   }
 
   .toggleNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 55px;
-    padding-right: 2vh;
+    padding: 0 2vw;
     display: flex;
   }
 }
