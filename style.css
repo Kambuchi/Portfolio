@@ -186,7 +186,7 @@ nav li {
 }
 
 .know-card h3 {
-  font-size: 6,25vw;
+  font-size: 6.25vw;
   padding: 15vw 13vw 7vw;
 }
 
@@ -203,7 +203,7 @@ nav li {
 .frameworks {
   width: 100%;
   height: 100%;
-  background-color: #e2505C;
+  background-color: #e2505c;
   background-image: url(img/frameworks.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -213,7 +213,7 @@ nav li {
 .skills {
   width: 100%;
   height: 100%;
-  background-color: #FEBF52;
+  background-color: #febf52;
   background-image: url(img/skills.png);
   background-repeat: no-repeat;
   background-position: right bottom;
