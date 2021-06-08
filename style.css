@@ -80,7 +80,7 @@ nav li {
   flex-direction: column;
 }
 
-.hero button {
+button {
   width: 288px;
   height: 50px;
   background-color: #1a2236;
@@ -217,4 +217,24 @@ nav li {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 32vw;
+}
+
+.contact {
+  width: 90%;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.form-fields {
+  display: flex;
+}
+
+.form-fields li {
+  height: 52px;
+}
+
+text {
+  height: 52px;
 }
