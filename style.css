@@ -254,17 +254,17 @@ button {
   flex-direction: column;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
   border: none;
   border-radius: 4px;
   padding: 23px 0 0 16px;
-  margin-left: ;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  color: #1A2236; 
+  color: #1a2236;
   width: 90%;
 }
 
@@ -272,13 +272,12 @@ textarea {
   border: none;
   border-radius: 4px;
   padding: 16px;
-  margin-left: ;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  color: #1A2236; 
+  color: #1a2236; 
   width: 90%;
 }
 
@@ -292,20 +291,20 @@ textarea {
   position: relative;
   width: 288px;
   height: 52px;
- }
+}
 
- .float-textarea {
-   height: 112px;
-   background-color: #fff;
-   border: solid 1px grey;
-   border-radius: 4px;
-   box-sizing: border-box;
-   margin-bottom: 8px;
-   padding: 0 8px;
-   position: relative;
-   width: 288px;
+.float-textarea {
+  height: 112px;
+  background-color: #fff;
+  border: solid 1px grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding: 0 8px;
+  position: relative;
+  width: 288px;
  }
-  
+ 
 label {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -332,7 +331,6 @@ footer {
   color: #92DCDC;
   padding: 32px 0 0 16px;
   display: flex;
-  
 }
 
 .get-resume img {
