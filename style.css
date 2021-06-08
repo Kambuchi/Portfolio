@@ -221,13 +221,12 @@ button {
 
 .contact {
   background-color: #f9f9fa;
-  width: 100%;
- 
+  width: 100%; 
   margin: 0;
 }
 
 .contact-container {
-  padding-left: 5%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -259,7 +258,6 @@ input[type="text"], input[type="email"] {
   border: none;
   border-radius: 4px;
   padding: 23px 0 0 16px;
-  margin-left: ;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -273,7 +271,6 @@ textarea {
   border: none;
   border-radius: 4px;
   padding: 16px;
-  margin-left: ;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -296,18 +293,18 @@ textarea {
  }
 
  .float-textarea {
-   height: 112px;
-   background-color: #fff;
-   border: solid 1px grey;
-   border-radius: 4px;
-   box-sizing: border-box;
-   margin-bottom: 8px;
-   padding: 0 8px;
-   position: relative;
-   width: 288px;
+  height: 112px;
+  background-color: #fff;
+  border: solid 1px grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding: 0 8px;
+  position: relative;
+  width: 288px;
  }
-  
-label {
+ 
+ label {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -316,4 +313,8 @@ label {
   color: #7D7C84;
   position: absolute;
   padding-left: 16px;
+}
+
+footer {
+  height: 150px;
 }
