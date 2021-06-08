@@ -222,7 +222,6 @@ button {
 .contact {
   background-color: #f9f9fa;
   width: 100%;
-  
   margin: 0 0 64px 0;
 }
 
@@ -231,7 +230,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .contact ul {
@@ -277,7 +275,7 @@ textarea {
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  color: #1a2236; 
+  color: #1a2236;
   width: 90%;
 }
 
@@ -303,15 +301,15 @@ textarea {
   padding: 0 8px;
   position: relative;
   width: 288px;
- }
- 
+}
+
 label {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 15px;
-  color: #7D7C84;
+  color: #7d7c84;
   position: absolute;
   padding-left: 16px;
 }
@@ -328,7 +326,7 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #92DCDC;
+  color: #92dcdc;
   padding: 32px 0 0 16px;
   display: flex;
 }
