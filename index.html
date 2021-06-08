@@ -8,7 +8,7 @@
     <title>Kambuchi's Portfolio</title>
 </head>
 <body>
-    <div class="content">
+    < class="content">
         <header>
             <img class="logo-nav" src="img/logo.png" alt="logo-nav" width="111">
             <nav>
@@ -131,16 +131,19 @@
             <form action="/my-handling-form-page" method="post">
                 <ul>
                  <li>
-                   <label for="name">Name:</label>
-                   <input type="text" id="name" name="user_name">
-                 </li>
-                 <li>
-                   <label for="mail">E-mail:</label>
-                   <input type="email" id="mail" name="user_email">
-                 </li>
-                 <li>
-                   <label for="msg">Message:</label>
-                   <textarea id="msg" name="user_message"></textarea>
+                        <!-- <label for="name">Name:</label> -->
+                        <input type="text" id="name" name="user_name" placeholder="John Doe">
+                        <span >Your name</span>
+
+                </li>
+                <li>
+                        <!-- <label for="mail">E-mail:</label> -->
+                        <input type="email" id="mail" name="user_email" placeholder="example@domain.com">    
+                        <span>Your email</span>
+                </li>
+                <li>
+                        <!-- <label for="msg">Message:</label> -->
+                        <textarea id="msg" name="user_message" placeholder="Enter your message here..."></textarea>
                  </li>
                 </ul>
                 <button>Start collaboration</button>

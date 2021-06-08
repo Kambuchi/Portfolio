@@ -221,20 +221,33 @@ button {
 
 .contact {
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
 }
 
 .contact ul {
   list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.contact form span {
+  position: absolute;
+  float: left;
 }
 
 .form-fields {
   display: flex;
 }
 
+
 .form-fields li {
   height: 52px;
+  position: relative;
 }
 
-text {
-  height: 52px;
+input[type="text"] {
+  background-color: #98dede
 }
