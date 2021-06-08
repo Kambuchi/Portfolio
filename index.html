@@ -8,7 +8,7 @@
     <title>Kambuchi's Portfolio</title>
 </head>
 <body>
-    < class="content">
+    <div class="content">
         <header>
             <img class="logo-nav" src="img/logo.png" alt="logo-nav" width="111">
             <nav>
@@ -125,29 +125,28 @@
         </section>
         <section class="contact">
             <img src="img/logo.png"  alt="logo-nav" width="111">
-            <h2>Get started</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                 <li>
-                        <!-- <label for="name">Name:</label> -->
-                        <input type="text" id="name" name="user_name" placeholder="John Doe">
-                        <span >Your name</span>
-
-                </li>
-                <li>
-                        <!-- <label for="mail">E-mail:</label> -->
-                        <input type="email" id="mail" name="user_email" placeholder="example@domain.com">    
-                        <span>Your email</span>
-                </li>
-                <li>
-                        <!-- <label for="msg">Message:</label> -->
-                        <textarea id="msg" name="user_message" placeholder="Enter your message here..."></textarea>
-                 </li>
-                </ul>
-                <button>Start collaboration</button>
-            </form>
+            <div class="contact-container">
+                <h2>Get started</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <form action="/my-handling-form-page" method="post">
+                    <ul class="form-fields">
+                     <li class="float-container">
+                       <label for="name">Your name</label>
+                       <input type="text" id="name" name="user_name" placeholder="Jhon Doe" required>
+                     </li>
+                     <li class="float-container">
+                       <label for="mail">E-mail:</label>
+                       <input type="email" id="mail" name="user_email" placeholder="example@domain.com" required>
+                     </li>
+                     <li class="float-textarea">
+                       <label for="msg"></label>
+                       <textarea id="msg" name="user_message" placeholder="Enter your message here..." required></textarea>
+                     </li>
+                    </ul>
+                    <button>Start collaboration</button>
+                </form>
+            </div>
         </section>
     </div>
 </body>

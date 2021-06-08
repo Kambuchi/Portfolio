@@ -220,11 +220,18 @@ button {
 }
 
 .contact {
-  width: 90%;
+  background-color: #f9f9fa;
+  width: 100%;
+ 
+  margin: 0;
+}
+
+.contact-container {
+  padding-left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0;
+
 }
 
 .contact ul {
@@ -238,16 +245,75 @@ button {
   float: left;
 }
 
+.contact h2 {
+  margin: 10px 0 0 0;
+}
+
 .form-fields {
   display: flex;
+  flex-direction: column;
 }
 
 
-.form-fields li {
-  height: 52px;
+input[type="text"], input[type="email"] {
+  border: none;
+  border-radius: 4px;
+  padding: 23px 0 0 16px;
+  margin-left: ;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1A2236; 
+  width: 90%;
+}
+
+textarea {
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  margin-left: ;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1A2236; 
+  width: 90%;
+}
+
+.float-container {
+  background-color: #fff;
+  border: solid 1px grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding: 0 8px;
   position: relative;
-}
+  width: 288px;
+  height: 52px;
+ }
 
-input[type="text"] {
-  background-color: #98dede
+ .float-textarea {
+   height: 112px;
+   background-color: #fff;
+   border: solid 1px grey;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-bottom: 8px;
+   padding: 0 8px;
+   position: relative;
+   width: 288px;
+ }
+  
+label {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7D7C84;
+  position: absolute;
+  padding-left: 16px;
 }
