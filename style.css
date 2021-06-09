@@ -420,4 +420,20 @@ footer {
     margin: 0 0 0 11.12vw;
     width: 17.64vw;
   }
+
+  .about {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .knowledge {
+    display: flex;
+  }
 }
