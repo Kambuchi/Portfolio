@@ -393,7 +393,7 @@ footer {
   .nav-list li {
     padding: 0 1.736vw;
   }
-  
+
   .hero {
     background-image: url(img/image-geometry_1.svg);
     background-repeat: no-repeat;
@@ -464,7 +464,7 @@ footer {
   }
 
   #img-5 {
-  transform: translate(0, -6.25vw);
+    transform: translate(0, -6.25vw);
   }
 
   #project-2 {
@@ -477,7 +477,7 @@ footer {
     background-position: right top;
     background-size: 35.486vw;
   }
- 
+
   #project-4 {
     width: 55.56vw;
   }
@@ -493,12 +493,12 @@ footer {
   }
 
   .inv-box {
-    width: 55.56vw;    
+    width: 55.56vw;
     background-image: url(img/image-geometry_4.svg), url(img/image-geometry_5.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left top;
   }
-  
+
   #project-6 {
     width: 44.44vw;
     display: flex;
@@ -522,7 +522,7 @@ footer {
 
   .about button {
     width: 17.64vw;
-    height: 4.86;
+    height: 4.86vw;
     font-size: 18px;
     align-self: flex-start;
     margin-top: 4.16vw;
@@ -540,7 +540,7 @@ footer {
     justify-content: center;
     margin-left: 6.67vw;
   }
-  
+
   .about-content p {
     width: 31vw;
     margin-top: 4.16vw;
@@ -549,7 +549,7 @@ footer {
   .knowledge {
     align-self: flex-start;
   }
-  
+
   .know-card {
     width: 50vw;
     display: flex;
@@ -562,7 +562,7 @@ footer {
     padding: 3.47vw 0 1.5vw 3.47vw;
     font-size: 1.39vw;
   }
-  
+
   .know-card ul {
     padding-left: 3.47vw;
   }
@@ -572,13 +572,13 @@ footer {
     height: 20vw;
     background-size: 7vw;
   }
-  
+
   .frameworks {
     width: 20vw;
     height: 20vw;
     background-size: 7vw;
   }
-  
+
   .skills {
     width: 20vw;
     height: 20vw;
