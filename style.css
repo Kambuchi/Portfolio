@@ -355,20 +355,21 @@ footer {
 }
 
 @media (min-width: 1024px) {
-   * {
+  * {
     padding: 0;
     margin: 0;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 110px;
   }
 
   header {
-    height: 7vw ;
-    box-shadow: 0px 0.5px 0px #dddfe6;
+    height: 7vw;
+    box-shadow: 0 0.5px 0 #dddfe6;
   }
-  
+
   .toggleNav {
     display: none;
   }
@@ -378,7 +379,7 @@ footer {
   }
 
   nav {
-    width: 100%
+    width: 100%;
   }
 
   .nav-list {
@@ -416,7 +417,7 @@ footer {
     margin: 13.34vw 0 0 11.12vw;
     padding-bottom: 4.167vw;
   }
-  
+
   .hero-content p {
     margin-left: 11.12vw;
     padding: 0 6.52vw 4.167vw 0;
@@ -444,6 +445,7 @@ footer {
   .project-box {
     background-color: #fff;
   }
+
   .project-title h2 {
     padding: 0;
     transform: rotate(-90deg);
@@ -453,15 +455,18 @@ footer {
     width: 66.67vw;
     height: auto;
   }
-  
-  #img-2, #img-3, #img-5, #img-6 {
+
+  #img-2,
+  #img-3,
+  #img-5,
+  #img-6 {
     width: 32.29vw;
   }
 
   #img-5 {
   transform: translate(0, -6.25vw);
   }
-  
+
   #project-2 {
     display: flex;
     justify-content: flex-end;
@@ -472,11 +477,11 @@ footer {
     background-position: right top;
     background-size: 35.486vw;
   }
-  
+ 
   #project-4 {
     width: 55.56vw;
   }
-  
+
   #project-5 {
     width: 44.44vw;
     display: flex;
@@ -486,7 +491,7 @@ footer {
     background-position: right bottom;
     background-size: 44.45vw;
   }
-  
+
   .inv-box {
     width: 55.56vw;    
     background-image: url(img/image-geometry_4.svg), url(img/image-geometry_5.svg);
@@ -502,7 +507,6 @@ footer {
 
   .project-img {
     width: auto;
-    height: auto;
   }
 
   .project-details {
@@ -536,7 +540,7 @@ footer {
     justify-content: center;
     margin-left: 6.67vw;
   }
-    
+  
   .about-content p {
     width: 31vw;
     margin-top: 4.16vw;
@@ -580,7 +584,7 @@ footer {
     height: 20vw;
     background-size: 7vw;
   }
-  
+
   .inv-container {
     width: 20vw;
     height: 20vw;
@@ -589,6 +593,7 @@ footer {
     background-position: right bottom;
     padding-bottom: 1.5vw;
   }
+
   .contact {
     background-image: url(img/image-geometry_6.svg), url(img/image-geometry_7.svg);
     background-repeat: no-repeat, no-repeat;
@@ -599,11 +604,11 @@ footer {
   .contact img {
     display: none;
   }
-  
+
   .contact-container h2 {
     align-self: center;
   }
-  
+
   .contact-container p {
     width: 38vw;
   }
@@ -611,7 +616,7 @@ footer {
   .contact button {
     margin-top: 5vh;
   }
-  
+
   .form-fields {
     width: 38vw;
     flex-direction: row;
