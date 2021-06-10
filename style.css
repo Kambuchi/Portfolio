@@ -95,9 +95,7 @@ button {
   grid-template: 10% 1fr 1fr 1fr 1fr / 100%;
 }
 
-.projects h2 {
-  grid-area: 1 / 1 / 1 /1;
-  background-color: white;
+.projects-title {
   padding: 5vw;
 }
 
@@ -430,19 +428,76 @@ footer {
   }
 
   .projects {
-    grid-template-areas: "title img-1 img-1"
-    "img-2 back img-3"
-    "img-4 img-4 img-5"
-    "back back img-6"
+    margin-top: 12.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  .projects-title {
-    grid-area: title;
+  .project-title {
+    background-image: url(img/image_dots.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 33.33vw;
+  }
+
+  .project-box {
+    background-color: #fff;
+  }
+  .project-title h2 {
+    padding: 0;
     transform: rotate(-90deg);
   }
 
   #img-1 {
-    grid-area: img-1;
+    width: 66.67vw;
+    height: auto;
+  }
+  
+  #img-2, #img-3, #img-5, #img-6 {
+    width: 32.29vw;
+  }
+
+  #img-5 {
+  transform: translate(0, -6.25vw);
+}
+  
+  #project-2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 67.71vw;
+    height: 24.306vw;
+    background-image: url(img/image-geometry_2.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 35.486vw;
+  }
+  
+  #project-4 {
+    width: 55.56vw;
+  }
+  
+  #project-5 {
+    width: 44.44vw;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(img/image-geometry_3.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 44.45vw;
+  }
+  
+  .inv-box {
+    width: 55.56vw;    
+    background-image: url(img/image-geometry_4.svg), url(img/image-geometry_5.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, left top;
+  }
+  
+  #project-6 {
+    width: 44.44vw;
+    display: flex;
+    align-items: flex-start;
   }
 
   .project-img {
@@ -597,7 +652,9 @@ footer {
     padding: 5px;
   }
 
-  .networks li {
-    padding: 2vw;
+  .networks {
+    width: 20.556vw;
+    margin-right: 5vw;
   }
+
 }
