@@ -472,7 +472,7 @@ footer {
   }
 
   #img-1,
-  #box-l {
+  .box-l {
     width: 66.67vw;
     height: auto;
   }
@@ -481,12 +481,12 @@ footer {
   #img-3,
   #img-5,
   #img-6, 
-  #box-s {
+  .box-s {
     width: 32.29vw;
   }
 
   #img-4,
-  #box-m {
+  .box-m {
     width: 55.56vw
   }
 
@@ -563,32 +563,32 @@ footer {
     top: 100vw;
   }
 
-  #box-l {
+  .box-l {
     height: 24.514vw;
     top: 14.236vw;
   }
 
-  #box-m {
+  .box-m {
     height: 24.514vw;
     top: 68.542vw;
   }
 
-  #box-s {
+  .box-s {
     height: 15.139vw;    
   }
 
-  #box-l h3,
-  #box-m h3 {
+  .box-l h3,
+  .box-m h3 {
     font-size: 4.167vw;
     padding: 0;
     margin: 5.556vw 0 0 5.556vw;
   }
 
-  #box-m h3 {
+  .box-m h3 {
     font-size: 3.472vw;
   }
 
-  #box-s h3 {
+  .box-s h3 {
     font-size: 2.778vw;
     padding: 0;
     margin: 2.083vw 0 0 2.083vw;
@@ -600,27 +600,27 @@ footer {
   }
 
 
-  #box-l .built,
-  #box-m .built {
+  .box-l .built,
+  .box-m .built {
     padding: 0;
     margin: 0 0 0 5.556vw;
     font-size: 1.389vw;
   }
 
-  #box-s .built {
+  .box-s .built {
     padding: 0;
     margin: 0 0 0 2.083vw;
     font-size: 1.389vw;
     height: 2.778vw;
   }
 
-  #box-l .built span,
-  #box-m .built span {
+  .box-l .built span,
+  .box-m .built span {
     padding: 0.833vw 1.389vw;
     margin: 2vw 1.389vw 0 0;
   }
 
-  #box-s .built span {
+  .box-s .built span {
     height: 2.5vw;
     padding: 0;
     margin: 1.042vw 1.389vw 0 0;
@@ -647,13 +647,13 @@ footer {
     font-weight: 300;
   }
 
-  #box-l button,
-  #box-m button {
+  .box-l button,
+  .box-m button {
     padding: 0;
     margin: 4.167vw 0 0 5.556vw;
   }
 
-  #box-s button {
+  .box-s button {
     padding: 0;
     margin: 1.2vw 0 0 2.083vw;
   }
