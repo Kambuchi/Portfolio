@@ -420,7 +420,7 @@ footer {
     display: flex;
     padding: 0;
     margin: 0;
-    width: 100%
+    width: 100%;
   }
 
   .hero-content {
@@ -550,45 +550,44 @@ footer {
     opacity: 100%;
     transition: 0.5s ease-out;
   }
-  
+
   #project-3 .project-details {
     top: 42.153vw;
   }
-  
+
   #project-5 .project-details {
     top: 60.903vw;
   }
-  
+
   #project-6 .project-details {
     top: 100vw;
   }
-  
-  
+
   #box-l {
     height: 24.514vw;
     top: 14.236vw;
   }
-  
+
   #box-m {
     height: 24.514vw;
     top: 68.542vw;
   }
-  
+
   #box-s {
     height: 15.139vw;    
   }
-  
+
   #box-l h3,
   #box-m h3 {
     font-size: 4.167vw;
     padding: 0;
     margin: 5.556vw 0 0 5.556vw;
   }
-  
+
   #box-m h3 {
     font-size: 3.472vw;
   }
-  
+
   #box-s h3 {
     font-size: 2.778vw;
     padding: 0;
@@ -599,36 +598,36 @@ footer {
     overflow-y: visible;
     display: inherit;
   }
-  
-  
+
+
   #box-l .built,
   #box-m .built {
     padding: 0;
     margin: 0 0 0 5.556vw;
     font-size: 1.389vw;
   }
-  
+
   #box-s .built {
     padding: 0;
     margin: 0 0 0 2.083vw;
     font-size: 1.389vw;
     height: 2.778vw;
   }
-  
+
   #box-l .built span,
   #box-m .built span {
     padding: 0.833vw 1.389vw;
     margin: 2vw 1.389vw 0 0;
   }
-  
+
   #box-s .built span {
     height: 2.5vw;
     padding: 0;
     margin: 1.042vw 1.389vw 0 0;
   }
-  
+
   .projects button {
-    font-size: 1.250vw;
+    font-size: 1.25vw;
     width: 14.722vw;
     align-self: flex-start;
     height: 3.542vw;
@@ -639,7 +638,7 @@ footer {
   }
 
   .projects button:hover {
-    font-size: 1.250vw;
+    font-size: 1.25vw;
     width: 14.722vw;
     align-self: flex-start;
     height: 3.542vw;
@@ -764,6 +763,8 @@ footer {
 
   .contact form span {
     top: -1.5vw;
+    display: block;
+    font-size: 0.833vw;
   }
 
   .contact button {
@@ -789,11 +790,6 @@ footer {
     width: 38vw;
     height: 9.722vw;
     margin-top: 2.917vw;
-  }
-
-  .form-fields span {
-    display: block;
-    font-size: 0.833vw;
   }
 
   .footer {
