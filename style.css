@@ -480,14 +480,14 @@ footer {
   #img-2,
   #img-3,
   #img-5,
-  #img-6, 
+  #img-6,
   .box-s {
     width: 32.29vw;
   }
 
   #img-4,
   .box-m {
-    width: 55.56vw
+    width: 55.56vw;
   }
 
   #img-5 {
@@ -574,7 +574,7 @@ footer {
   }
 
   .box-s {
-    height: 15.139vw;    
+    height: 15.139vw;
   }
 
   .box-l h3,
@@ -598,7 +598,6 @@ footer {
     overflow-y: visible;
     display: inherit;
   }
-
 
   .box-l .built,
   .box-m .built {
@@ -626,6 +625,27 @@ footer {
     margin: 1.042vw 1.389vw 0 0;
   }
 
+  .box-l button,
+  .box-m button {
+    padding: 0;
+    margin: 4.167vw 0 0 5.556vw;
+  }
+
+  .box-s button {
+    padding: 0;
+    margin: 1.2vw 0 0 2.083vw;
+  }
+
+  .contact form span {
+    top: -1.5vw;
+    display: block;
+    font-size: 0.833vw;
+  }
+
+  .contact button {
+    margin-top: 5vw;
+  }
+
   .projects button {
     font-size: 1.25vw;
     width: 14.722vw;
@@ -645,17 +665,6 @@ footer {
     background-color: #1a2236;
     color: white;
     font-weight: 300;
-  }
-
-  .box-l button,
-  .box-m button {
-    padding: 0;
-    margin: 4.167vw 0 0 5.556vw;
-  }
-
-  .box-s button {
-    padding: 0;
-    margin: 1.2vw 0 0 2.083vw;
   }
 
   .about {
@@ -759,16 +768,6 @@ footer {
     font-size: 0.972vw;
     line-height: 1.458vw;
     margin-top: 2.778vw;
-  }
-
-  .contact form span {
-    top: -1.5vw;
-    display: block;
-    font-size: 0.833vw;
-  }
-
-  .contact button {
-    margin-top: 5vw;
   }
 
   .form-fields {
