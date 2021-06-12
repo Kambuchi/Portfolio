@@ -613,6 +613,12 @@ footer {
     height: 2.778vw;
   }
 
+  .contact form span {
+    top: -1.5vw;
+    display: block;
+    font-size: 0.833vw;
+  }
+
   .box-l .built span,
   .box-m .built span {
     padding: 0.833vw 1.389vw;
@@ -636,14 +642,16 @@ footer {
     margin: 1.2vw 0 0 2.083vw;
   }
 
-  .contact form span {
-    top: -1.5vw;
-    display: block;
-    font-size: 0.833vw;
-  }
-
   .contact button {
     margin-top: 5vw;
+  }
+
+  .about button {
+    width: 17.64vw;
+    height: 4.86vw;
+    font-size: 1.25vw;
+    align-self: flex-start;
+    margin-top: 4.16vw;
   }
 
   .projects button {
@@ -672,14 +680,6 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     margin: 0;
-  }
-
-  .about button {
-    width: 17.64vw;
-    height: 4.86vw;
-    font-size: 1.25vw;
-    align-self: flex-start;
-    margin-top: 4.16vw;
   }
 
   .about img {
