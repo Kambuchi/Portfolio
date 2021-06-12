@@ -382,6 +382,10 @@ footer {
     box-shadow: 0 0.5px 0 #dddfe6;
   }
 
+  nav a {
+    font-size: 0.9vw;
+  }
+
   button {
     width: 17.639vw;
     height: 4.861vw;
@@ -415,7 +419,7 @@ footer {
   .hero {
     background-image: url(img/image-geometry_1.svg);
     background-repeat: no-repeat;
-    background-size: 48.75vw;
+    background-size: 48.75%;
     background-position: right;
     display: flex;
     padding: 0;
