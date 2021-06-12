@@ -802,6 +802,7 @@ footer {
   }
 
   .get-cv {
+    font-size: 1.25vw;
     display: flex;
     align-self: center;
     padding-left: 11.12vw;
@@ -809,7 +810,7 @@ footer {
   }
 
   .get-cv img {
-    padding: 5px;
+    padding-left: 1vw;
   }
 
   .networks {
