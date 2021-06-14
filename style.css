@@ -429,7 +429,7 @@ footer {
 
   .hero-content {
     width: 51.25%;
-    height: 61vw;
+    height: 60.903vw;
     background-image: url(img/image_dots.svg);
     background-repeat: no-repeat;
     background-size: 12.15vw;
@@ -463,6 +463,7 @@ footer {
     background-image: url(img/image_dots.svg);
     background-repeat: no-repeat;
     background-position: right top;
+    background-size: 12.15vw;
     width: 33.33vw;
   }
 
