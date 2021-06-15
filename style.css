@@ -217,7 +217,7 @@ button:hover {
 .frameworks {
   width: 100%;
   height: 100%;
-  background-color: #CA4955;
+  background-color: #ca4955;
   background-image: url(img/frameworks.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -225,12 +225,12 @@ button:hover {
 }
 
 .frameworks h3 {
-  background-color: #CA4955;
+  background-color: #ca4955;
   color: white;
 }
 
 .frameworks ul li {
-  background-color: #CA4955;
+  background-color: #ca4955;
   color: white;
 }
 
@@ -281,6 +281,10 @@ button:hover {
   list-style: none;
   width: 100%;
   padding: 0;
+}
+
+.float-container span {
+  background-color: white;
 }
 
 .contact form span {
@@ -335,10 +339,6 @@ textarea {
   position: relative;
   width: 288px;
   height: 52px;
-}
-
-.float-container span {
-  background-color: white;
 }
 
 .float-textarea {
