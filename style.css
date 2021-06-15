@@ -287,6 +287,10 @@ button:hover {
   background-color: white;
 }
 
+.float-textarea span {
+  background-color: white;
+}
+
 .contact form span {
   position: absolute;
   float: left;
@@ -351,10 +355,6 @@ textarea {
   padding: 0 8px;
   position: relative;
   width: 288px;
-}
-
-.float-textarea span {
-  background-color: white;
 }
 
 label {
