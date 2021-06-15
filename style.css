@@ -206,24 +206,52 @@ button:hover {
   background-size: 32vw;
 }
 
+.languages h3 {
+  background-color: #1c528a;
+}
+
+.languages ul li {
+  background-color: #1c528a;
+}
+
 .frameworks {
   width: 100%;
   height: 100%;
-  background-color: #e2505c;
+  background-color: #CA4955;
   background-image: url(img/frameworks.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 32vw;
 }
 
+.frameworks h3 {
+  background-color: #CA4955;
+  color: white;
+}
+
+.frameworks ul li {
+  background-color: #CA4955;
+  color: white;
+}
+
 .skills {
   width: 100%;
   height: 100%;
-  background-color: #febf52;
+  background-color: #855803;
   background-image: url(img/skills.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 32vw;
+}
+
+.skills h3 {
+  background-color: #855803;
+  color: white;
+}
+
+.skills ul li {
+  background-color: #855803;
+  color: white;
 }
 
 .contact {
@@ -238,6 +266,15 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.contact-container h2 {
+  background-color: #f9f9fa;
+  color: #1a2236;
+}
+
+.contact-container p {
+  background-color: #f9f9fa;
 }
 
 .contact ul {
@@ -300,6 +337,10 @@ textarea {
   height: 52px;
 }
 
+.float-container span {
+  background-color: white;
+}
+
 .float-textarea {
   height: 112px;
   background-color: #fff;
@@ -310,6 +351,10 @@ textarea {
   padding: 0 8px;
   position: relative;
   width: 288px;
+}
+
+.float-textarea span {
+  background-color: white;
 }
 
 label {
@@ -439,11 +484,13 @@ footer {
   .hero-content h1 {
     margin: 10vw 0 0 11.12vw;
     padding-bottom: 4.167vw;
+    background-color: white;
   }
 
   .hero-content p {
     margin-left: 11.12vw;
     padding: 0 6.52vw 4.167vw 0;
+    background-color: white;
   }
 
   .hero-content button {
@@ -474,6 +521,7 @@ footer {
   .project-title h2 {
     padding: 0;
     transform: rotate(-90deg) translate(-5.5vw, 0);
+    background-color: white;
   }
 
   #img-1,
