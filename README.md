@@ -5,7 +5,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-Portfolio for my development projects.
+Portfolio for my development projects, and ideas.
 
 ## Built With
 
