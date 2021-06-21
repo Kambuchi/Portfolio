@@ -31,7 +31,6 @@ h2 {
 }
 
 .content {
-  display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
@@ -82,7 +81,7 @@ nav li {
 }
 
 button {
-  width: 288px;
+  width: 289px;
   height: 50px;
   background-color: #1a2236;
   color: white;
@@ -103,8 +102,8 @@ button:hover {
   grid-template: 10% 1fr 1fr 1fr 1fr / 100%;
 }
 
-.projects-title {
-  padding: 5vw;
+.project-title {
+  padding-left: 5vw;
 }
 
 .projects span {
@@ -115,9 +114,8 @@ button:hover {
   background-color: #1a2236;
   border: 1px solid white;
   color: white;
-  padding: 3.125vw;
   margin-top: 6.25vw;
-  font-size: 5vw;
+  font-size: 3vw;
 }
 
 .project-box {
@@ -169,16 +167,16 @@ button:hover {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 90vw;
+  width: 288px;
   height: 50px;
   background-color: #1a2236;
   font-family: 'Poppins', sans-serif;
-  font-size: 5vw;
+  font-size: 2.8vw;
   color: white;
 }
 
 .about img {
-  padding: 6.25vw;
+  padding: 2vw;
 }
 
 .know-card {
@@ -188,7 +186,7 @@ button:hover {
 }
 
 .know-card ul {
-  padding: 0 0 0 18vw;
+  padding: 0 0 18vw 18vw;
 }
 
 .know-card h3 {
@@ -211,7 +209,7 @@ button:hover {
 }
 
 .languages ul li {
-  background-color: #1c528a;
+  background-color: transparent;
 }
 
 .frameworks {
@@ -230,7 +228,7 @@ button:hover {
 }
 
 .frameworks ul li {
-  background-color: #ca4955;
+  background-color: transparent;
   color: white;
 }
 
@@ -250,7 +248,7 @@ button:hover {
 }
 
 .skills ul li {
-  background-color: #855803;
+  background-color: transparent;
   color: white;
 }
 
@@ -314,23 +312,24 @@ input[type="email"] {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.972vw;
+  font-size: 16px;
   line-height: 1.458vw;
   color: #1a2236;
-  width: 90%;
+  width: 95%;
 }
 
 textarea {
   border: none;
   border-radius: 4px;
   padding: 16px;
+  margin-top: 16px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.972vw;
-  line-height: 1.458vw;
+  font-size: 16px;
+  line-height: 20px;
   color: #1a2236;
-  width: 90%;
+  width: 95%;
 }
 
 .float-container {
@@ -437,6 +436,10 @@ footer {
     font-size: 1.25vw;
   }
 
+  .content {
+    display: flex;
+  }
+  
   .toggleNav {
     display: none;
   }
