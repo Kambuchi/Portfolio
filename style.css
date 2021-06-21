@@ -515,6 +515,7 @@ footer {
     background-position: right top;
     background-size: 12.15vw;
     width: 33.33vw;
+    padding: 0;
   }
 
   .project-box {
