@@ -31,7 +31,6 @@ h2 {
 }
 
 .content {
-  display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
@@ -188,7 +187,7 @@ button:hover {
 }
 
 .know-card ul {
-  padding: 0 0 0 18vw;
+  padding: 0 0 18vw 18vw;
 }
 
 .know-card h3 {
@@ -211,7 +210,7 @@ button:hover {
 }
 
 .languages ul li {
-  background-color: #1c528a;
+  background-color: transparent;
 }
 
 .frameworks {
@@ -230,7 +229,7 @@ button:hover {
 }
 
 .frameworks ul li {
-  background-color: #ca4955;
+  background-color: transparent;
   color: white;
 }
 
@@ -250,7 +249,7 @@ button:hover {
 }
 
 .skills ul li {
-  background-color: #855803;
+  background-color: transparent;
   color: white;
 }
 
