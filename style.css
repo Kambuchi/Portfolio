@@ -313,23 +313,24 @@ input[type="email"] {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.972vw;
+  font-size: 16px;
   line-height: 1.458vw;
   color: #1a2236;
-  width: 90%;
+  width: 95%;
 }
 
 textarea {
   border: none;
   border-radius: 4px;
   padding: 16px;
+  margin-top: 16px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.972vw;
-  line-height: 1.458vw;
+  font-size: 16px;
+  line-height: 20px;
   color: #1a2236;
-  width: 90%;
+  width: 95%;
 }
 
 .float-container {
