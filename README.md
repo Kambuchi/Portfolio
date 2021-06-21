@@ -5,7 +5,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-Checking good practices and standard code rules.
+Portfolio for my development projects.
 
 ## Built With
 
