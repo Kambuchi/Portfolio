@@ -55,6 +55,10 @@ header {
   background-repeat: no-repeat;
 }
 
+.openMenu {
+  padding: 0 5vw;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -107,12 +111,7 @@ nav li {
   position: absolute;
   top: 0;
   right: 0;
-}
-
-.toggleNav {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 55px;
-  padding: 0 2vw;
+  padding: 5vw;
 }
 
 .hero {

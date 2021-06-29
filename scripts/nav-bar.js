@@ -1,7 +1,3 @@
-const mainMenu = document.querySelector('.nav-list');
-const openMenu = document.querySelector('.openMenu');
-const closeMenu = document.querySelector('.closeMenu');
-
 function show() {
   mainMenu.classList.add('visible');
   openMenu.style.display = 'none';
@@ -14,3 +10,7 @@ function close() {
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
+h.addEventListener('click', close);
+p.addEventListener('click', close);
+a.addEventListener('click', close);
+c.addEventListener('click', close);
