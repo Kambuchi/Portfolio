@@ -50,27 +50,68 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  background-image: url(/img/logo.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.openMenu {
+  padding: 0 5vw;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  height: 17vh;
+  justify-content: flex-end;
 }
 
 .nav-list {
-  width: 80vw;
+  width: 100%;
   display: none;
-  justify-content: space-evenly;
-}
-
-.toggleNav {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 55px;
-  padding: 0 2vw;
+  height: 100%;
+  background-color: white;
 }
 
 nav a {
+  padding: 5vw;
   text-decoration: none;
   color: #1a2236;
 }
 
 nav li {
   list-style: none;
+}
+
+.visible {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: fixed;
+  z-index: 1;
+  font-size: 20px;
+  background-image: url(/img/image_geometry_menu_1.svg), url(/img/image_geometry_menu_2.svg);
+  background-position: top, right bottom;
+  background-repeat: no-repeat;
+}
+
+.visible a {
+  cursor: pointer;
+}
+
+.visible li {
+  padding-bottom: 5vh;
+}
+
+.closeMenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5vw;
 }
 
 .hero {
@@ -81,7 +122,7 @@ nav li {
 }
 
 button {
-  width: 289px;
+  width: 250px;
   height: 50px;
   background-color: #1a2236;
   color: white;
@@ -439,8 +480,8 @@ footer {
   .content {
     display: flex;
   }
-  
-  .toggleNav {
+
+  .openMenu {
     display: none;
   }
 
@@ -462,6 +503,10 @@ footer {
 
   .nav-list li {
     padding: 0 1.736vw;
+  }
+
+  .closeMenu {
+    display: none;
   }
 
   .hero {
