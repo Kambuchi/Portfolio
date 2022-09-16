@@ -79,6 +79,10 @@ nav a {
   color: #1a2236;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav li {
   list-style: none;
 }
@@ -204,6 +208,7 @@ button:hover {
   margin: 0;
 }
 
+
 .about button {
   justify-content: center;
   align-items: center;
@@ -276,7 +281,7 @@ button:hover {
 .skills {
   width: 100%;
   height: 100%;
-  background-color: #855803;
+  background-color: #fec25a;
   background-image: url(img/skills.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -284,7 +289,7 @@ button:hover {
 }
 
 .skills h3 {
-  background-color: #855803;
+  background-color: #fec25a;
   color: white;
 }
 
@@ -406,6 +411,12 @@ label {
   color: #7d7c84;
   position: absolute;
   padding-left: 16px;
+}
+
+.form-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 footer {

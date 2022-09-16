@@ -32,7 +32,7 @@
                 <div class="hero-content">
                     <h1>Hector<br>Pereira</h1>
                     <p>Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-                    <button>
+                    <button onclick="window.location.href='#contact'">
                         <span>Start collaboration</span>
                     </button>
                 </div>
@@ -42,15 +42,15 @@
                     <h2>Projects</h2>
                 </div>
                 <div class="project-box" id="project-1">
-                    <img src="img/calculator_.png" alt="project-1" class="project-img" id="img-1">
+                    <img src="img/kopetom.png" alt="project-1" class="project-img" id="img-1">
                     <div class="project-details box-l">
-                        <h3>Calculator</h3>
+                        <h3>Kopteom</h3>
                         <div class="built">
                             <span>HTML/CSS</span>
-                            <span>React</span>
+                            <span>CSS</span>
                             <span>JavaScript</span>
                         </div>
-                        <button onclick="window.location.href='https://kambuchi.github.io/calculator/'">See this project →</button>
+                        <button onclick="window.location.href='https://kambuchi.github.io/kopetom/'">See this project →</button>
                     </div>
                 </div>
                 <div class="project-box" id="project-2">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="project-box" id="project-3">
-                    <img src="img/testimonials_.png" alt="project-3" class="project-img" id="img-3">
+                    <img src="img/calculator_.png" alt="project-3" class="project-img" id="img-3">
                     <div class="project-details box-s">
                         <h3>Testimonials</h3>
                         <div class="built">
@@ -74,7 +74,7 @@
                             <span>React</span>
                             <span>JavaScript</span>
                         </div>
-                        <button onclick="window.location.href='https://kambuchi.github.io/Testimonials/'">See this project →</button>
+                        <button onclick="window.location.href='https://kambuchi.github.io/calculator/'">See this project →</button>
                     </div>
                 </div>
                 <div class="project-box" id="project-4">
@@ -90,15 +90,15 @@
                     </div>
                 </div>
                 <div class="project-box" id="project-5">
-                    <img src="img/project-5.png" alt="project-5" class="project-img" id="img-5">
+                    <img src="img/testimonials_.png" alt="project-5" class="project-img" id="img-5">
                     <div class="project-details box-s">
-                        <h3>Project names goes here</h3>
+                        <h3>Testimonial</h3>
                         <div class="built">
                             <span>HTML/CSS</span>
-                            <span>Ruby on Rials</span>
+                            <span>React</span>
                             <span>JavaScript</span>
                         </div>
-                        <button>See this project →</button>
+                        <button onclick="window.location.href='https://kambuchi.github.io/Testimonials/'">See this project →</button>
                     </div>
                 </div>
                 <div class="inv-box"></div>
@@ -118,14 +118,13 @@
             <section class="about" id="about">
                 <div class="about-content">
                     <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ea eiusmodz</p>
-                    <button>
-                        <span>Get my CV</span>
-                        <img src="img/download.png" alt="download" width="25">
-                    </button>
+                    <p>These are my mains languages, frameworks and skills that I've been working with, there are some tools that are not included but it's just to give you an idea!<br>Feel free to ask any question down on the contact form, and I hope we work together.</p>
+                    <a href="./kambuchi_resume.pdf" download>
+                        <button>
+                            <span>Get my resume</span>
+                            <img src="img/download.png" alt="download" width="25">
+                        </button>
+                    </a>
                 </div>
                 <div class="knowledge">
                     <div class="know-card">
@@ -146,6 +145,7 @@
                                 <li>Flutter</li>
                                 <li>Unity</li>
                                 <li>Laravel</li>
+                                <li>React</li>
                             </ul>
                         </div>
                         <div class="skills">
@@ -167,10 +167,7 @@
                 <img src="img/logo.png"  alt="logo-nav" width="111">
                 <div class="contact-container">
                     <h2>Get started</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Feel free to leave any question, idea or advice. I'll reach to you as soon as I can with an answer.</p>
                     <form action="https://formspree.io/f/mqkwbzjb" method="post">
                         <div class="form-fields">
                             <div class="float-container">
@@ -185,22 +182,24 @@
                                 <span>Message</span>
                                 <textarea id="msg" name="user_message" placeholder="Enter your message here..." maxlength="500" required></textarea>
                             </div>
+                            <div class="form-btn">
+                                <button type="submit">Start collaboration</button>
+                            </div>
                         </div>
                     </form>
-                    <button>Start collaboration</button>
                 </div>
             </section>
         </main>
         <footer>
             <div class="footer">
-                <div class="get-resume">
-                    <a>Get my Resume</a>
+                <a class="get-resume" href="./kambuchi_resume.pdf" download>
+                    <span>Get my resume</span>
                     <img src="img/ic_link_teal.svg" alt="link teal" width="22">
-                </div>
-                <div class="get-cv">                
-                        <span>Get my CV</span>
+                </a>
+                <a class="get-cv" href="./kambuchi_resume.pdf" download>               
+                        <span>Get my resume</span>
                         <img src="img/download.png" alt="download-cv">
-                </div>
+                </a>
                 <ul class="networks">
                     <li><img src="./img/ic_stackoverflow.svg" alt="stackoverflow profile"></li>
                     <li><img src="./img/ic_github.svg" alt="github profile"></li>
